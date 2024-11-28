@@ -162,10 +162,10 @@
         </LexerType>
         <LexerType name="json" desc="JSON" ext="">
             <WordsStyle name="DEFAULT" styleID="11" fgColor="F8F8F2" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="NUMBER" styleID="4" fgColor="F1FA8C" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="33844B" bgColor="282A36" fontName="" fontStyle="1" fontSize="" />
             <WordsStyle name="STRING DOUBLE QUOTE" styleID="6" fgColor="50FA7B" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
             <WordsStyle name="STRING SINGLE QUOTE" styleID="7" fgColor="50FA7B" bgColor="282A36" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="BOOLEAN NULL" styleID="5" fgColor="F1FA8C" bgColor="282A36" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
+            <WordsStyle name="BOOLEAN NULL" styleID="5" fgColor="008040" bgColor="282A36" fontName="" fontStyle="1" fontSize="" keywordClass="instre1" />
             <WordsStyle name="OPERATOR" styleID="10" fgColor="FF79C6" bgColor="282A36" fontName="" fontStyle="1" fontSize="" />
         </LexerType>
         <LexerType name="javascript" desc="JavaScript (embedded)" ext="">
@@ -492,7 +492,7 @@
     <GlobalStyles>
         <!-- Attention : Don't modify the name of styleID="0" -->
         <WidgetStyle name="Global override" styleID="0" fgColor="F8F8F2" bgColor="F4F4F4" fontName="SF Pro" fontStyle="0" fontSize="9" />
-        <WidgetStyle name="Default Style" styleID="32" fgColor="F8F8F2" bgColor="FFFFFF" fontName="Consolas" fontStyle="0" fontSize="10" />
+        <WidgetStyle name="Default Style" styleID="32" fgColor="5F6678" bgColor="FFFFFF" fontName="Consolas" fontStyle="0" fontSize="10" />
         <WidgetStyle name="Indent guideline style" styleID="37" fgColor="F8F8F2" bgColor="FF80C0" fontName="" fontStyle="0" fontSize="" />
         <WidgetStyle name="Brace highlight style" styleID="34" fgColor="F8F8F2" bgColor="BD93F9" fontName="" fontStyle="1" fontSize="10" />
         <WidgetStyle name="Bad brace colour" styleID="35" fgColor="F8F8F2" bgColor="FF5555" fontName="" fontStyle="0" fontSize="" />
@@ -512,5 +512,9 @@
         <WidgetStyle name="Active tab focused indicator" styleID="0" fgColor="FF5555" fontStyle="0" bgColor="FF8000" />
         <WidgetStyle name="EOL custom color" styleID="0" fgColor="DADADA" />
         <WidgetStyle name="Non-printing characters custom color" styleID="0" fgColor="F8F8F2" />
+        <WidgetStyle name="Change History modified" styleID="0" fgColor="FF8000" bgColor="FF8000" />
+        <WidgetStyle name="Change History revert modified" styleID="0" fgColor="A0C000" bgColor="A0C000" />
+        <WidgetStyle name="Change History revert origin" styleID="0" fgColor="40A0BF" bgColor="40A0BF" />
+        <WidgetStyle name="Change History saved" styleID="0" fgColor="00A000" bgColor="00A000" />
     </GlobalStyles>
 </NotepadPlus>
